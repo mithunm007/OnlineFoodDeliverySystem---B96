@@ -28,4 +28,25 @@ public class DeliveryPerson {
 	        return "DeliveryPerson{id=" + deliveryPersonId + ", name='" + name + "', contactNo=" + contactNo + "}";
 	    }
 
+
+		public String getName() {
+			return name;
+		}
+
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+
+		public long getContactNo() {
+			return contactNo;
+		}
+
+
+		public void setContactNo(long contactNo) {
+			this.contactNo = contactNo;
+		}
+		
+
 }

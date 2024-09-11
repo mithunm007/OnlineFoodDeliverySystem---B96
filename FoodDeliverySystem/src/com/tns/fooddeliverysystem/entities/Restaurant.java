@@ -43,4 +43,17 @@ public class Restaurant {
 	        return sb.toString();
 	    }
 
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public void setMenu(List<FoodItem> menu) {
+			this.menu = menu;
+		}
+	    
+
 }

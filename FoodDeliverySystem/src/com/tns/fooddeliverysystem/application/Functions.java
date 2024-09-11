@@ -15,7 +15,8 @@ public class Functions {
     private Map<Integer, Customer> customers = new HashMap<>();
     private Scanner sc = new Scanner(System.in);
     private int orderIdCounter = 1;
-
+    
+    
     public void addRestaurant() {
         System.out.println("Enter Restaurant ID: ");
         int id = sc.nextInt();

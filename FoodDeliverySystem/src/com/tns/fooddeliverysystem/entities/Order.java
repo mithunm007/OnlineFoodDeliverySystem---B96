@@ -10,7 +10,6 @@ public class Order {
     private Map<FoodItem, Integer> items;
     private String status;
     private DeliveryPerson deliveryPerson;
-    private String deliveryAddress;
 
     public Order(int orderId, Customer customer) {
         this.orderId = orderId;
@@ -49,6 +48,38 @@ public class Order {
 	public void setCustomer(Customer customer) {
 		this.customer = customer;
 	}
+
+
+	public DeliveryPerson getDeliveryPerson() {
+		return deliveryPerson;
+	}
+
+
+	public void setDeliveryPerson(DeliveryPerson deliveryPerson) {
+		this.deliveryPerson = deliveryPerson;
+	}
+
+
+	public Map<FoodItem, Integer> getItems() {
+		return items;
+	}
+
+
+	public void setItems(Map<FoodItem, Integer> items) {
+		this.items = items;
+	}
+
+
+	public String getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	
+	
     
     
 
